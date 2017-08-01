@@ -26,10 +26,10 @@ namespace AzureMobileAppServiceDemo.Service
                 .ApplyTo(config);
 
             // Use Entity Framework Code First to create database tables based on your DbContext
-            Database.SetInitializer(new andrew_demoInitializer());
+            Database.SetInitializer(new AzureMobileAppServiceDemoInitializer());
 
             // To prevent Entity Framework from modifying your database schema, use a null database initializer
-            // Database.SetInitializer<andrew_demoContext>(null);
+            // Database.SetInitializer<AppDbContext>(null);
 
             MobileAppSettingsDictionary settings = config.GetMobileAppSettingsProvider().GetMobileAppSettings();
 
@@ -49,7 +49,7 @@ namespace AzureMobileAppServiceDemo.Service
         }
     }
 
-    public class andrew_demoInitializer : CreateDatabaseIfNotExists<AppDbContext>
+    public class AzureMobileAppServiceDemoInitializer : CreateDatabaseIfNotExists<AppDbContext>
     {
         protected override void Seed(AppDbContext context)
         {
