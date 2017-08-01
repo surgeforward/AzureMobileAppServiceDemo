@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureMobileAppServiceDemo", "src\AzureMobileAppServiceDemo\AzureMobileAppServiceDemo.csproj", "{3AFA591D-C115-4AC9-9519-F788373ECDE9}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{9E8EE9ED-CA84-43C7-99A0-EAAB717F4F3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureMobileAppServiceDemo.Droid", "src\AzureMobileAppServiceDemo.Droid\AzureMobileAppServiceDemo.Droid.csproj", "{6D1C7CCD-9F72-40EE-AC05-8B3D453CA1DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureMobileAppServiceDemo", "AzureMobileAppServiceDemo\AzureMobileAppServiceDemo.csproj", "{3AFA591D-C115-4AC9-9519-F788373ECDE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureMobileAppServiceDemo.iOS", "src\AzureMobileAppServiceDemo.iOS\AzureMobileAppServiceDemo.iOS.csproj", "{107578E7-62C3-4AB7-A85F-979071410819}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureMobileAppServiceDemo.Droid", "AzureMobileAppServiceDemo.Droid\AzureMobileAppServiceDemo.Droid.csproj", "{6D1C7CCD-9F72-40EE-AC05-8B3D453CA1DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureMobileAppServiceDemo.Service", "src\AzureMobileAppServiceDemo.Service\AzureMobileAppServiceDemo.Service.csproj", "{209FA716-A7AD-4095-BD70-C8710FC66FA7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureMobileAppServiceDemo.iOS", "AzureMobileAppServiceDemo.iOS\AzureMobileAppServiceDemo.iOS.csproj", "{107578E7-62C3-4AB7-A85F-979071410819}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureMobileAppServiceDemo.Service", "AzureMobileAppServiceDemo.Service\AzureMobileAppServiceDemo.Service.csproj", "{209FA716-A7AD-4095-BD70-C8710FC66FA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
