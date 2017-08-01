@@ -1,10 +1,9 @@
-﻿using System;
-
+﻿
 using Xamarin.Forms;
 
-namespace andrew_demo
+namespace AzureMobileAppServiceDemo
 {
-	public class App : Application
+    public class App : Application
 	{
 		public App ()
 		{

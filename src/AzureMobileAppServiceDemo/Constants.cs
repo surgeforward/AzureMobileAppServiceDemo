@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace andrew_demo
+namespace AzureMobileAppServiceDemo
 {
 	public static class Constants
 	{

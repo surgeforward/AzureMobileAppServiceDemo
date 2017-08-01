@@ -99,11 +99,11 @@
     <ITunesArtwork Include="ITunesArtwork" />
     <ITunesArtwork Include="ITunesArtwork%402x" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\andrew_demo\andrew_demo.csproj">
-      <Project>{3AFA591D-C115-4AC9-9519-F788373ECDE9}</Project>
-      <Name>andrew_demo</Name>
+    <ProjectReference Include="..\AzureMobileAppServiceDemo\AzureMobileAppServiceDemo.csproj">
+      <Project>{3afa591d-c115-4ac9-9519-f788373ecde9}</Project>
+      <Name>AzureMobileAppServiceDemo</Name>
     </ProjectReference>
   </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

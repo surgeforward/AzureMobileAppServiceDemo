@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace andrew_demo
+namespace AzureMobileAppServiceDemo
 {
     public partial class TodoList : ContentPage
     {

@@ -2,7 +2,7 @@
 using Microsoft.WindowsAzure.MobileServices;
 using Newtonsoft.Json;
 
-namespace andrew_demo
+namespace AzureMobileAppServiceDemo
 {
 	public class TodoItem
 	{

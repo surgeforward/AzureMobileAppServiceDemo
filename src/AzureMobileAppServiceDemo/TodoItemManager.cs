@@ -21,7 +21,7 @@ using Microsoft.WindowsAzure.MobileServices.SQLiteStore;
 using Microsoft.WindowsAzure.MobileServices.Sync;
 #endif
 
-namespace andrew_demo
+namespace AzureMobileAppServiceDemo
 {
     public partial class TodoItemManager
     {
